@@ -14,3 +14,20 @@ import history from './history.png';
 import Vanilla from "./Vanilla.png"
 import IcedLat from './IcedLat.png';
 
+export {
+  Ameri,
+  cappaci,
+  conte,
+  content,
+  Espresso,
+  latOne,
+  latTwo,
+  latThree,
+  Macca,
+  Main,
+  Product,
+  Time,
+  history,
+  Vanilla,
+  IcedLat
+}
