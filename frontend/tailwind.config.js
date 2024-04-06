@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryNeutral: '#f6f6f6',
-        secondaryFou: '#c3af9d',
-        secondaryFouTwo: "#a5886d",
+        primary: '#f6f6f6',
+        secondary: '#c3af9d',
+        secondaryTwo: "#a5886d",
         dimBlue:  "rgba(9, 151, 124, 0.1)",
         successCol: "#15803d",
         primaryNeuOne: "#ffffff"

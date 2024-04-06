@@ -15,6 +15,16 @@ body{
   background: #232323;
   width: 100vw;
   height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.img {
+  background-image: cover;
+  overflow: none;
+  background-repeat: no-repeat;
+  width: 100wv;
+  height: 100vh;
+
 }
 
 
