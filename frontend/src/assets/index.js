@@ -14,7 +14,9 @@ import history from './history.png';
 import Vanilla from "./Vanilla.png"
 import IcedLat from './IcedLat.png';
 import Logo from "./Logo.png";
-import Diamond from "./Diamond.png"
+import Diamond from "./Diamond.png";
+import Hero2 from "./Hero2.png";
+import Hero3 from "./Hero3.png"
 
 export {
   Ameri,
@@ -32,5 +34,7 @@ export {
   history,
   Vanilla,
   IcedLat,
-  Diamond, Logo
+  Diamond, Logo,
+  Hero2,
+  Hero3
 }

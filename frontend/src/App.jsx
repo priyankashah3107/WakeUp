@@ -5,6 +5,8 @@ import { Logo, Main } from './assets/index.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "aos/dist/aos.js";
+import Carousel from './carousel/Carousel.jsx';
+import { slides } from './data/carouselData.js';
 
 function App() {
   
@@ -23,9 +25,12 @@ function App() {
     
    <div>  
       <div><Navbar /></div>
-      <img src={Main} alt="IMG"  className='w-full h-full img '/> 
-      
+      {/* <img src={Main} alt="IMG"  className='w-full h-full img '/>  */}
+      <Carousel data={slides} />
      </div>
+     
+
+     
     
    </div>
    
