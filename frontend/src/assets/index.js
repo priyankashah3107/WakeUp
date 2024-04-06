@@ -13,6 +13,8 @@ import Time from "./Time.png";
 import history from './history.png';
 import Vanilla from "./Vanilla.png"
 import IcedLat from './IcedLat.png';
+import Logo from "./Logo.png";
+import Diamond from "./Diamond.png"
 
 export {
   Ameri,
@@ -29,5 +31,6 @@ export {
   Time,
   history,
   Vanilla,
-  IcedLat
+  IcedLat,
+  Diamond, Logo
 }

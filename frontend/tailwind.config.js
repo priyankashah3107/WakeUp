@@ -15,7 +15,8 @@ export default {
         primaryNeuOne: "#ffffff"
       },
       fontFamily: {
-        poppins: ["Monda","Poppins"],
+        monda: ["Monda","Poppins"],
+        poppins: ["Poppins", "sans-serif"]
       },
     },
 
