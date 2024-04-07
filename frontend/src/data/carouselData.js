@@ -39,12 +39,12 @@ export const contentInfo = [
     head: "Elevated Sensory Experience",
     para: "From the moment you enter our opulent establishment, you are enveloped in an ambiance of refined elegance."
   },
-  {
-    id:3,
-    src: Time,
-    head: null,
-    para: null
-  }
+  // {
+  //   id:3,
+  //   src: Time,
+  //   head: null,
+  //   para: null
+  // }
 
 
   
