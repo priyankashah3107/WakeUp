@@ -38,7 +38,7 @@ function App() {
    
     <History />
     <OurMenu data={menus}/>
-
+    <NewsLetter />
        
    </div>
 
