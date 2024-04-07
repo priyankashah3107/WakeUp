@@ -6,7 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "aos/dist/aos.js";
 import Carousel from './carousel/Carousel.jsx';
-import  { slides }  from './data/carouselData.js';
+import  { slides, contentInfo}  from './data/carouselData.js';
 
 function App() {
   
@@ -28,8 +28,18 @@ function App() {
       {/* <img src={Main} alt="IMG"  className='w-full h-full img '/>  */}
       <Carousel data={slides} />
      </div>
-   </div>
+      
+     {/* QualityCoffee  */}
+     <div className='text-white'>
+     <QualityCoffee  info={contentInfo}/>
+     </div>
+   
     
+
+       
+   </div>
+
+
    
    </>
   )

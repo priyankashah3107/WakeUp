@@ -1,4 +1,4 @@
-import { Main, Hero2, Hero3 } from "../assets";
+import { Main, Hero2, Hero3, conte, content } from "../assets";
 
 export const slides = [
   {
@@ -25,4 +25,22 @@ export const slides = [
 
 ]
 
-export default slides
+
+export const contentInfo = [
+  {
+    id:1,
+    src: content,
+    head: "Welcome to Exquisite Beans",
+    para: "Step into a world of indulgence as you savor the finest handcrafted brews from around the globe."
+  },
+  {
+    id:2,
+    src:  conte,
+    head: "Elevated Sensory Experience",
+    para: "From the moment you enter our opulent establishment, you are enveloped in an ambiance of refined elegance."
+  }
+]
+
+export default {slides,
+  contentInfo
+}
