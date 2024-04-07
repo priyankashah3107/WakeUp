@@ -1,4 +1,4 @@
-import { Main, Hero2, Hero3, conte, content } from "../assets";
+import { Main, Hero2, Hero3, conte, content, Time } from "../assets";
 
 export const slides = [
   {
@@ -38,7 +38,16 @@ export const contentInfo = [
     src:  conte,
     head: "Elevated Sensory Experience",
     para: "From the moment you enter our opulent establishment, you are enveloped in an ambiance of refined elegance."
+  },
+  {
+    id:3,
+    src: Time,
+    head: null,
+    para: null
   }
+
+
+  
 ]
 
 export default {slides,

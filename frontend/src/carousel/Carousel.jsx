@@ -85,8 +85,10 @@ function Carousel({ data }) {
       {data.map((slide, index) => (
         <div key={slide.id} className={`carousel-item ${currentSlide === index ? 'active' : ''}`}>
           <img src={slide.src} alt={slide.alt} className="h-screen w-screen flex justify-center items-center" />
+
           <div className={`carousel-content flex flex-col justify-between items-center`}>
             <FaChevronLeft className="text-white arrow arrow-left -ml-96" onClick={prevSlide} />  
+            
             <h2 >{slide.head}</h2>
             <p>{slide.desc}</p>
 
