@@ -36,7 +36,7 @@ function App() {
 
     <States  items={stats}/>
    
-    
+    <History />
 
        
    </div>
