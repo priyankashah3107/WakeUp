@@ -6,7 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "aos/dist/aos.js";
 import Carousel from './carousel/Carousel.jsx';
-import { slides } from './data/carouselData.js';
+import  { slides }  from './data/carouselData.js';
 
 function App() {
   
