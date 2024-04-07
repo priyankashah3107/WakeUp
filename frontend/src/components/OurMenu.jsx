@@ -19,24 +19,22 @@ function OurMenu() {
 
               </div>  
                
-                {menus.map(data => (
-                    
-                 <div className='flex justify-around '>
-                   
-                   <div className=' flex ' key={data.id} >
-                     <div className='flex'>
-                     <img src={data.src} alt="imagses" />
-                     <h1>{data.title}</h1>
-                     <p>{data.paise}</p>
-                     </div>
-                    
+               <div className='grid grid-cols-2 items-center sm:m-24 m-24 sm:-mr-32 -ml-1 gap-8  '>
+                   {menus.map(data => (
+                       <div className='grid sm:grid-cols-2 sm:gap-4  ' key={data.id} >
+                         <div className='flex sm:flex-row flex-col p-4 sm:m-4 sm:gap-4 sm:ml-10 ml-10 sm:mt-0 mt-10 '>
+                          <img src={data.src} alt="images" className="sm:size-[132px] size-[102px] flex" />
+                            <div className='text-center flex flex-col justify-center'>
 
-                   </div>
+                            <h4 className="text-[#A5886D] sm:text-[31px] text-[24px] font-semibold font-['Monda'] leading-10">{data.title}</h4>
 
-
-                 </div>  
-
-                ))}
+                           <p className="text-stone-300 text-base font-normal font-['Monda'] leading-loose">{data.paise}</p>
+                            </div>
+                           
+                          </div>     
+                       </div>
+                   ))}
+               </div>
               
         </div>
       </div>

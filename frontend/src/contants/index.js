@@ -104,7 +104,7 @@ export const menus = [
      {
       id: 4,
       src: Vanilla,
-      title: "Vanilla Latte",
+      title: "Latte",
       paise: "299₹"
      },
      {
@@ -116,7 +116,7 @@ export const menus = [
      {
       id: 6,
       src: IcedLat,
-      title: "Iced Coffe",
+      title: "Mocha",
       paise: "399₹"
      },
 ]
