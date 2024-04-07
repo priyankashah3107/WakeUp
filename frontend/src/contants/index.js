@@ -82,10 +82,48 @@ export const stats = [
 
 ]
 
-
+export const menus = [
+     {
+      id: 1,
+      src: Espresso,
+      title: "Espresso",
+      paise: "299₹"
+     },
+     {
+      id: 2,
+      src: Macca,
+      title: "Macchiato",
+      paise: "299₹"
+     },
+     {
+      id: 3,
+      src: cappaci,
+      title: "Cappuccino",
+      paise: "399₹"
+     },
+     {
+      id: 4,
+      src: Vanilla,
+      title: "Vanilla Latte",
+      paise: "299₹"
+     },
+     {
+      id: 5,
+      src: Ameri,
+      title: "Americano",
+      paise: "199₹"
+     },
+     {
+      id: 6,
+      src: IcedLat,
+      title: "Iced Coffe",
+      paise: "399₹"
+     },
+]
 
 
 export default {
   navLinks,
-  stats
+  stats,
+  menus
 }

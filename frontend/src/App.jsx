@@ -37,6 +37,7 @@ function App() {
     <States  items={stats}/>
    
     <History />
+    <OurMenu />
 
        
    </div>
