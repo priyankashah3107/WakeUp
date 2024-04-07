@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import "aos/dist/aos.js";
 import Carousel from './carousel/Carousel.jsx';
 import  { slides, contentInfo}  from './data/carouselData.js';
-
+import {stats} from './contants/index.js'
 function App() {
   
   useEffect(() => {
@@ -33,6 +33,8 @@ function App() {
      <div className='text-white'>
      <QualityCoffee  info={contentInfo}/>
      </div>
+
+    <States  items={stats}/>
    
     
 

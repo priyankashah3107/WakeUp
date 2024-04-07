@@ -17,7 +17,7 @@ import {  Ameri,
 
 
 
-export default navLinks = [
+ export const navLinks = [
 
   {
     id:"home",
@@ -58,3 +58,34 @@ export default navLinks = [
   }
 
 ]
+
+
+export const stats = [
+
+  {
+    id: "stats-1",
+    value: "9277+",
+    title: "Coffee Cups Served"
+  },
+
+  {
+    id: "stats-2",
+    value: "8977+",
+    title: "Happy Clients"
+  },
+
+  {
+    id: "stats-3",
+    value: "12",
+    title: "Winning Awards"
+  },
+
+]
+
+
+
+
+export default {
+  navLinks,
+  stats
+}

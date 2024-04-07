@@ -21,4 +21,12 @@ export const styles = {
 
 }
 
-export default styles
+export const stat = {
+  divSt: "flex justify-center items-center text-center gap-4 mt-14",
+  headS: "text-[#A5886D] text-[39px] font-bold font-['Monda'] leading-[48px]",
+  paraS: "text-white text-xl font-normal font-['Monda'] leading-loose"
+}
+
+export default  {styles,
+stat
+}

@@ -1,7 +1,6 @@
 import React from 'react';
-import { contentInfo } from '../data/carouselData.js'; 
 import { Time, underLine } from '../assets/index.js';
-import Button from './Button';
+import { contentInfo } from '../data/carouselData.js'; 
 
 function QualityCoffee() {
   return (
@@ -28,8 +27,8 @@ function QualityCoffee() {
               {/* <Button  /> */}
 
               <div className="w-[147px] h-11 px-8 py-2.5 bg-gradient-to-b from-stone-600 to-stone-400 rounded-tl-[150px] rounded-br-[150px] justify-center items-center inline-flex mt-2 ">
-    <button className="text-center text-white text-base font-bold font-['Monda'] leading-normal ">Read More</button>
-      </div>
+               <button className="text-center text-white text-base font-bold font-['Monda'] leading-normal ">Read More</button>
+               </div>
 
             </div>
 
