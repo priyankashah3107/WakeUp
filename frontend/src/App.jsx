@@ -28,11 +28,8 @@ function App() {
       {/* <img src={Main} alt="IMG"  className='w-full h-full img '/>  */}
       <Carousel data={slides} />
      </div>
-     
-
-     
-    
    </div>
+    
    
    </>
   )
