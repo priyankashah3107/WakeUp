@@ -97,25 +97,29 @@ import { latestNews } from '../contants';
 
 function LatestNews() {
   return (
-    <div className='text-white w-screen sm:h-[800px] h-[500px] sm:mt-44 mt-36'>
+    <div className='text-white w-screen sm:h-[800px] h-[1500px] sm:mt-44 mt-36 '>
 
       <div className='flex flex-col justify-center text-center items-center'>
         <h1 className="text-[#A5886D] text-[31px] font-bold font-['Monda'] leading-10">Latest News</h1>
         <img src={underLine} alt="img" className='w-[302.56px] h-[15px]' />
       </div>
 
-      <div className="grid grid-cols-3 justify-center text-center sm:mt-28 gap-4">
+      <div className="grid sm:grid-cols-3  justify-center text-center sm:mt-28 mt-20 sm:gap-2 gap-10">
 
         {latestNews.map((info, idx) => (
-          <div key={idx} className='outer-grid-item sm:w-[291px] sm:h-[367px] h-[367px] w-[291px] border-2 relative -z-3 border-[#A5886D] justify-center items-center text-center sm:top-10 top-10 sm:left-60 left-48 gap-4'>
-            <div className='inner-grid-item sm:w-[291px] sm:h-[367px] h-[367px] w-[291px] border-2 sm:z-44 relative border-[#A5886D] sm:top-0 top-0 sm:right-6 right-6'>
-              <img src={info.src} alt="img" />
-              <time>{info.data}</time>
-              <p>{info.head}</p>
+          <div key={idx} className='outer-grid-item sm:w-[291px] sm:h-[380px] h-[380px] w-[291px] border-2 relative -z-3 border-[#A5886D] 
+          justify-center items-center text-center sm:top-10 top-10 sm:left-60 left-0 gap-4 sm:-ml-28 '>
+            <div className='inner-grid-item sm:w-[291px] sm:h-[380px] h-[380px] w-[291px] border-2 sm:z-44 relative border-[#A5886D] sm:top-5 top-5 sm:right-6 right-6  '> 
 
-              <div className="w-[84px] h-6 px-4 py-1 bg-gradient-to-b from-[#A5886D] to-stone-400 rounded-tl-[150px] rounded-br-[150px] justify-center items-center inline-flex">
+              <img src={info.src} alt="img" className="w-[300.13px] h-64" />
+
+              <time className="text-white text-[10px] font-normal font-['Monda'] leading-none ">{info.data}</time>
+
+              <p className="text-[#A5886D] text-[13px] font-bold font-['Monda'] leading-none sm:mt-2 mt-2">{info.head}</p>
+
+              <div className="w-[84px] h-6 px-4 py-1 bg-gradient-to-b from-[#A5886D] to-stone-400 rounded-tl-[150px] rounded-br-[150px] justify-center items-center inline-flex sm:mt-2 mt-2">
             <button className="text-center text-white text-[10px] font-bold font-['Monda'] leading-none">Read More</button>
-                    </div>
+              </div>
             </div>
           </div>
         ))}
