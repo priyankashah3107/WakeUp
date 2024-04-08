@@ -27,6 +27,18 @@ export const stat = {
   paraS: "text-white text-xl font-normal font-['Monda'] leading-loose"
 }
 
+export const latest = {
+  outerDiv: "outer-grid-item sm:w-[291px] sm:h-[380px] h-[380px] w-[291px] border-2 relative -z-3 border-[#A5886D] justify-center items-center text-center sm:top-10 top-10 sm:left-60 left-0 gap-4 sm:-ml-28 ",
+
+  innerDiv: "inner-grid-item sm:w-[291px] sm:h-[380px] h-[380px] w-[291px] border-2 sm:z-44 relative border-[#A5886D] sm:top-5 top-5 sm:right-6 right-6 ",
+  btnDiv: "w-[84px] h-6 px-4 py-1 bg-gradient-to-b from-[#A5886D] to-stone-400 rounded-tl-[150px] rounded-br-[150px] justify-center items-center inline-flex sm:mt-2 mt-2",
+
+  btnP: "text-center text-white text-[10px] font-bold font-['Monda'] leading-none",
+  head: "text-[#A5886D] text-[13px] font-bold font-['Monda'] leading-none sm:mt-2 mt-2"
+}
+
+
+
 export default  {styles,
 stat
 }

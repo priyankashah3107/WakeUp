@@ -40,6 +40,7 @@ function App() {
    <NewsLetter />
    <CoffeeProduct />
    <LatestNews info={latestNews} />
+   <StatesTwo />
 
     {/* <States  items={stats}/>
    
