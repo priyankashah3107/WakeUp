@@ -19,7 +19,7 @@ function NewsLetter() {
 <div class="absolute flex h-full w-screen flex-col text-white sm:h-930px bg-[#232323] justify-center items-center">
 
   <div>
-        <div className=" relative -z-3 sm:mt-20  sm:h-96 h-60 sm:w-[900px] w-[500px] border-2 border-[#A5886D] sm:top-20 top-28 sm:-left-10 -left-10">
+        <div className=" relative -z-3 sm:mt-20  sm:h-96 h-72 sm:w-[900px] w-[500px] border-2 border-[#A5886D] sm:top-20 top-28 sm:-left-10 -left-10">
                 
             <div className='flex flex-col sm:text-center text-center sm:mt-12 mt-8'>
                 
@@ -28,7 +28,7 @@ function NewsLetter() {
                       <h3 className=" text-[#A5886D] text-[31px] font-bold font-['Monda'] leading-10">Subscribe Our Newsletter</h3>
                        <img src={underLine} alt="underline" className="w-60 text-center sm:mt-2 mt-2" />
 
-                       <p className="sm:w-[585px] w-[400px] h-14 sm:text-center  text-white sm:text-xl text-base font-normal font-['Monda'] leading-normal sm:mt-5 mt-5">Stay in the loop with the latest news, events, and exclusive offers from our <br  className='sm:hidden hidden '/>
+                       <p className="sm:w-[585px] w-[400px] h-14 sm:text-center  text-white sm:text-xl text-base font-normal font-['Monda'] leading-normal sm:mt-5 mt-5 sm:block hidden">Stay in the loop with the latest news, events, and exclusive offers from our <br  className='sm:hidden hidden '/>
                         exquisite luxury restaurant.</p>
                      </div>
 
@@ -42,7 +42,7 @@ function NewsLetter() {
                              <input type="text" placeholder='Enter Your Email Address......' className="text-[#A5886D] text-[13px] font-normal font-['Monda'] leading-none bg-transparent border-[#A5886D] focus:outline-none " />
                            </div>
                             
-                            <p className='border-b-2 w-[500px] border-[#A5886D] mt-2'></p>
+                            <p className='border-b-2 sm:w-[500px] w-[280px] border-[#A5886D] sm:mt-2 mt-2'></p>
                              
                             {/* term and Con  */}
 
@@ -60,7 +60,7 @@ function NewsLetter() {
 
         </div>
 
-        <div className=" relative z-40 sm:h-96 h-60 sm:w-[900px] w-[500px] border-2 border-[#A5886D] sm:-top-56 -top-28 sm:-mt-10   "></div>
+        <div className=" relative z-40 sm:h-96 h-72 sm:w-[900px] w-[500px] border-2 border-[#A5886D] sm:-top-56 -top-32 sm:-mt-10 -mt-6  "></div>
   </div>
 
 </div>
