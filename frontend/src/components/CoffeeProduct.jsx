@@ -4,7 +4,7 @@ function CoffeeProduct() {
   return (
     <> 
       <div className=" relative bg-[#232323] sm:w-screen w-screen">
-          <img src={Product} alt="img" className='sm:w-screen sm:h-[300px] '/>
+          <img src={Product} alt="img" className='sm:w-screen sm:h-[300px] sm:mt-32  '/>
 
           <div className='absolute sm:top-0 top-7 sm:left-80  text-white justify-center text-center items-center sm:p-10  '>
               <h3 className="text-[#A5886D] text-[39px] font-bold font-['Monda'] leading-[48px]">Coffee Products</h3>

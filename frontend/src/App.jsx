@@ -39,6 +39,7 @@ function App() {
    <OurMenu data={menus}/>
    <NewsLetter />
    <CoffeeProduct />
+   <LatestNews />
 
     {/* <States  items={stats}/>
    
