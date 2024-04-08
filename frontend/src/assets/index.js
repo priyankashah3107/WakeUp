@@ -20,6 +20,10 @@ import Hero3 from "./Hero3.png"
 import underLine from './underline.png'
 import footer from './footer.png'
 import logo2 from "./logo2.png"
+import instagram from './instagram.svg'
+import facebook from './facebook.svg'
+import linkedin from './linkedin.svg'
+import twitter from './twitter.svg'
 
 export {
   Ameri,
@@ -42,5 +46,9 @@ export {
   Hero3,
   underLine, 
   footer,
-  logo2
+  logo2,
+  twitter,
+  linkedin,
+  facebook,
+  instagram
 }

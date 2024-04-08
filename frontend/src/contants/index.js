@@ -13,7 +13,11 @@ import {  Ameri,
   history,
   Vanilla,
   IcedLat,
-  Diamond, Logo}  from '../assets'
+  Diamond, Logo,
+  twitter,
+  facebook,
+  instagram,
+  linkedin}  from '../assets'
 
   import { FaInstagram, FaSquareYoutube, FaFacebook, FaTwitter} from 'react-icons/fa6'
 
@@ -171,20 +175,22 @@ export const foo1 = [
 export const foo2 = [
   {
     id:1,
-    icon: FaTwitter
+    icon: twitter,
+    
   },
   {
     id:2,
-    icon: FaFacebook,
+    icon: facebook,
+    
   },
   {
     id:3,
-    icon: FaInstagram,
+    icon: instagram,
 
   },
   {
     id:4,
-    icon: FaSquareYoutube
+    icon: linkedin
   }
 ]
 
