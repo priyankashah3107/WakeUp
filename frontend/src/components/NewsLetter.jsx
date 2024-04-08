@@ -19,7 +19,7 @@ function NewsLetter() {
 <div class="absolute flex h-full w-screen flex-col text-white sm:h-930px bg-[#232323] justify-center items-center">
 
   <div>
-        <div className=" relative -z-3 sm:mt-20  sm:h-80 h-60 sm:w-[900px] w-[500px] border-2 border-[#A5886D] sm:top-20 top-28 sm:-left-10 -left-10">
+        <div className=" relative -z-3 sm:mt-20  sm:h-96 h-60 sm:w-[900px] w-[500px] border-2 border-[#A5886D] sm:top-20 top-28 sm:-left-10 -left-10">
                 
             <div className='flex flex-col sm:text-center text-center sm:mt-12 mt-8'>
                 
@@ -39,7 +39,7 @@ function NewsLetter() {
                            {/* Email */}
                            <div className='flex justify-center mt-5 gap-2  '>
                            <LuMail className='w-[26px] h-[26px] text-[#A5886D]' />
-                             <input type="text" placeholder='Enter Your Email Address......' className="text-[#A5886D] text-[13px] font-normal font-['Monda'] leading-none bg-transparent border-[#A5886D] focus:outline-none z-10" />
+                             <input type="text" placeholder='Enter Your Email Address......' className="text-[#A5886D] text-[13px] font-normal font-['Monda'] leading-none bg-transparent border-[#A5886D] focus:outline-none " />
                            </div>
                             
                             <p className='border-b-2 w-[500px] border-[#A5886D] mt-2'></p>
@@ -51,13 +51,16 @@ function NewsLetter() {
                             <input type="checkbox" className='w-[15px] h-[15px] bg-[#A5886D] ' />
                              <p className="text-white text-[15px] font-normal font-['Monda'] leading-none">I agree to the <span className='text-[#A5886D]'>Privacy Policy.</span></p>
                            </div>
-
+                             {/* button */}
+                           <div className="w-[139px] h-11 px-8 py-2.5 bg-gradient-to-b from-[#A5886D] to-stone-400 rounded-tl-[150px] rounded-br-[150px] justify-center items-center inline-flex mt-7">
+                           <button className="text-center text-white text-base font-bold font-['Monda'] leading-normal">Subscribe</button>
+                            </div>
                      </div>
             </div>
 
         </div>
 
-        <div className=" relative z-40 sm:h-80 h-60 sm:w-[900px] w-[500px] border-2 border-[#A5886D] sm:-top-44 -top-28 sm:-mt-10   ">inner div</div>
+        <div className=" relative z-40 sm:h-96 h-60 sm:w-[900px] w-[500px] border-2 border-[#A5886D] sm:-top-56 -top-28 sm:-mt-10   "></div>
   </div>
 
 </div>
