@@ -41,6 +41,7 @@ function App() {
    <CoffeeProduct />
    <LatestNews info={latestNews} />
    <StatesTwo />
+   <Footer />
 
     {/* <States  items={stats}/>
    

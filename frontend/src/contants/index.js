@@ -15,6 +15,7 @@ import {  Ameri,
   IcedLat,
   Diamond, Logo}  from '../assets'
 
+  import { FaInstagram, FaSquareYoutube, FaFacebook, FaTwitter} from 'react-icons/fa6'
 
 
  export const navLinks = [
@@ -149,10 +150,50 @@ export const latestNews = [
   }
 ]
 
+export const foo1 = [
+  {
+    id:1,
+    day: "Monday - Thursday:",
+    time: "9am-10pm"
+  },
+  {
+    id:1,
+    day: "Friday - Saturday:",
+    time: "10am-11pm"
+  },
+  {
+    id:2,
+    day: "Monday-Tuesday:",
+    time: "11pm-9pm"
+  }
+]
+
+export const foo2 = [
+  {
+    id:1,
+    icon: FaTwitter
+  },
+  {
+    id:2,
+    icon: FaFacebook,
+  },
+  {
+    id:3,
+    icon: FaInstagram,
+
+  },
+  {
+    id:4,
+    icon: FaSquareYoutube
+  }
+]
+
 
 export default {
   navLinks,
   stats,
   menus,
-  latestNews
+  latestNews,
+  foo1,
+  foo2
 }

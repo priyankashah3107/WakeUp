@@ -18,6 +18,8 @@ import Diamond from "./Diamond.png";
 import Hero2 from "./Hero2.png";
 import Hero3 from "./Hero3.png"
 import underLine from './underline.png'
+import footer from './footer.png'
+import logo2 from "./logo2.png"
 
 export {
   Ameri,
@@ -38,5 +40,7 @@ export {
   Diamond, Logo,
   Hero2,
   Hero3,
-  underLine
+  underLine, 
+  footer,
+  logo2
 }
