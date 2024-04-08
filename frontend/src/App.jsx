@@ -10,20 +10,20 @@ import  { slides, contentInfo}  from './data/carouselData.js';
 import {stats, menus} from './contants/index.js'
 function App() {
   
-  useEffect(() => {
-    AOS.init({
-      offset: 100,
-      duration: 700,
-      easing: 'ease-in',
-      delay: 100,
-    });
-  });
+  // useEffect(() => {
+  //   AOS.init({
+  //     offset: 100,
+  //     duration: 700,
+  //     easing: 'ease-in',
+  //     delay: 100,
+  //   });
+  // });
 
   return (
    <>
    <div className="bg-[#232323] w-full  overflow-hidden">
     
-   <div>  
+   <div className='bg-[#232323] w-full  overflow-hidden'>  
       <div><Navbar /></div>
       {/* <img src={Main} alt="IMG"  className='w-full h-full img '/>  */}
       <Carousel data={slides} />
@@ -31,14 +31,22 @@ function App() {
       
      {/* QualityCoffee  */}
      <div className='text-white'>
-     <QualityCoffee  info={contentInfo}/>
-     </div>
+     <QualityCoffee  info={contentInfo}/></div>
 
-    <States  items={stats}/>
+     <States  items={stats}/>
+   
+   <History />
+   <OurMenu data={menus}/>
+   <NewsLetter />
+   <CoffeeProduct />
+
+    {/* <States  items={stats}/>
    
     <History />
     <OurMenu data={menus}/>
     <NewsLetter />
+    <CoffeeProduct /> */}
+    
        
    </div>
 

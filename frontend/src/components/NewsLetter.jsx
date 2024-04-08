@@ -16,7 +16,7 @@ function NewsLetter() {
  
 </div> */}
 
-<div class="absolute flex h-full w-screen flex-col text-white sm:h-930px bg-[#232323] justify-center items-center">
+<div class=" flex sm:h-[500px] h-[380px] sm:mt-44 w-screen flex-col text-white sm:h-930px bg-[#232323] justify-center items-center">
 
   <div>
         <div className=" relative -z-3 sm:mt-20  sm:h-96 h-72 sm:w-[900px] w-[500px] border-2 border-[#A5886D] sm:top-20 top-28 sm:-left-10 -left-10">
