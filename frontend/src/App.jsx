@@ -21,7 +21,7 @@ function App() {
 
   return (
    <>
-   <div className="bg-[#232323] w-full overflow-hidden">
+   <div className="bg-[#232323] w-full  overflow-hidden">
     
    <div>  
       <div><Navbar /></div>
