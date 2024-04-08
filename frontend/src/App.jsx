@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import "aos/dist/aos.js";
 import Carousel from './carousel/Carousel.jsx';
 import  { slides, contentInfo}  from './data/carouselData.js';
-import {stats, menus} from './contants/index.js'
+import {stats, menus, latestNews} from './contants/index.js'
 function App() {
   
   // useEffect(() => {
@@ -39,7 +39,7 @@ function App() {
    <OurMenu data={menus}/>
    <NewsLetter />
    <CoffeeProduct />
-   <LatestNews />
+   <LatestNews info={latestNews} />
 
     {/* <States  items={stats}/>
    

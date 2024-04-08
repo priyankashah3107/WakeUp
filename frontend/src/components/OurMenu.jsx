@@ -3,7 +3,7 @@ import { underLine } from '../assets'
 import { menus } from '../contants'
 
 function OurMenu() {
-  console.log(menus)
+  // console.log(menus)
   return (
      <> 
       <div className='text-white w-full sm:h-[943px] px-36 py-20 bg-neutral-900 flex-col sm:mt-4 mt-5   inline-flex '>

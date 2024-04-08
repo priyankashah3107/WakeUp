@@ -122,9 +122,37 @@ export const menus = [
 ]
  
 
+export const latestNews = [
+  {
+    id: 1,
+    src: latOne,
+    data: "April 4, 2024",
+    head: "Explore Blissful Moments at Renaissance ",
+
+  },
+
+  {
+    id: 2,
+    src: latTwo,
+    data: "April 4, 2024",
+    head: "The Unparalleled Happy Hour Experience",
+    
+  },
+
+  
+  {
+    id: 3,
+    src: latThree,
+    data: "Jult 31, 2024",
+    head: "Exploring the Artistry of Renaissance",
+    
+  }
+]
+
 
 export default {
   navLinks,
   stats,
-  menus
+  menus,
+  latestNews
 }
