@@ -67,13 +67,6 @@ function Footer() {
                    ))}
                    </div>
 
-                   {/* <div>
-                    <img src={twitter} alt="twitter" />
-                    <img src={facebook} alt="facbook" />
-                    <img src={instagram} alt="instagram" />
-                    <img src={linkedin} alt="link" />
-                   </div> */}
-
              </div>
            
             <div>
