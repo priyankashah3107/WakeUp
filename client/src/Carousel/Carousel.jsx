@@ -17,7 +17,7 @@ function Carousel({data}) {
       <div className="carousel_Wrapper">
 
         {data.map((info, index) => (
-          <div key={index} className={index == current ? "pagination_dot carouserl_Card-active" : "carouserl_Card"}>
+          <div key={index} className={index == current ? "carouserl_Card carouserl_Card-active" : "carouserl_Card"}>
              <img src={info.img} alt="img" className='photo' 
               />
              <div className="card_overlay">

@@ -34,3 +34,41 @@ body{
 .brown_gradient {
   background: linear-gradient(to right, #7b5638 84%, #cbbaab 83%);
 }
+
+
+
+@layer components {
+  .card{
+    width: 90px;
+    height: 80px;
+    background-color: #A5886D;
+    border: .5px solid white;
+    margin-top: 30px; 
+    margin-left: 10px;
+    justify-content: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+ .butt{
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Monda', sans-serif;
+  line-height: 1.5;
+  }
+  .outerDiv{
+    width: 200px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #A5886D, #A5886D, #d1cfce);
+    border-top-left-radius: 150px;
+   border-bottom-right-radius: 150px;
+   
+  }
+  
+}
+

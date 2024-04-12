@@ -87,15 +87,19 @@ function Carousel({ data }) {
           <img src={slide.src} alt={slide.alt} className="h-screen w-screen flex justify-center items-center" />
 
           <div className={`carousel-content flex flex-col justify-between items-center`}>
-            <FaChevronLeft className="text-white arrow arrow-left -ml-96" onClick={prevSlide} />  
+            <FaChevronLeft className="text-white arrow arrow-left md:-ml-96 -ml-12 size-7" onClick={prevSlide} />  
             
-            <h2 >{slide.head}</h2>
-            <p>{slide.desc}</p>
+            <h2  className="">{slide.head}</h2>
+            <p className='md:text-3xl'>{slide.desc}</p>
 
             {/* <button>Learn More</button> */}
-          <Button value="Read More" />
+          {/* <Button value="Read More" /> */}
 
-            <FaChevronRight className="arrow arrow-right -mr-96" onClick={nextSlide} />
+          <div className='outerDiv w-[180px] h-[35px]'>
+            <button className='butt'>Read More</button>
+          </div>
+
+            <FaChevronRight className="arrow arrow-right md:-mr-96 -mr-12 h-7 w-7" onClick={nextSlide} />
           </div>
           <span className="indicators ">
             {data.map((_, idx) => (

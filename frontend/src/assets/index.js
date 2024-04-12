@@ -24,7 +24,8 @@ import instagram from './instagram.svg'
 import facebook from './facebook.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-
+import menu from './menu.svg'
+import close from './close.svg'
 export {
   Ameri,
   cappaci,
@@ -50,5 +51,7 @@ export {
   twitter,
   linkedin,
   facebook,
-  instagram
+  instagram,
+  menu,
+  close
 }
