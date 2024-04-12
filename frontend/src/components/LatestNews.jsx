@@ -6,14 +6,14 @@ import { latest } from '../style';
 
 function LatestNews() {
   return (
-    <div className='text-white w-screen sm:h-[800px] h-[1500px] sm:mt-44 mt-36 '>
+    <div className='text-white w-screen sm:h-[800px] h-[1500px] md:mt-44 mt-10 '>
 
-      <div className='flex flex-col justify-center text-center items-center'>
-        <h1 className="text-[#A5886D] text-[31px] font-bold font-['Monda'] leading-10">Latest News</h1>
-        <img src={underLine} alt="img" className='w-[302.56px] h-[15px]' />
+      <div className='flex flex-col justify-center text-center items-center '>
+        <h1 className="text-[#A5886D] md:text-[44px] text-[35px] font-bold font-['Monda'] leading-10">Latest News</h1>
+        <img src={underLine} alt="img" className='w-[302.56px] h-[15px] mt-2' />
       </div>
 
-      <div className="grid sm:grid-cols-3  justify-center text-center sm:mt-28 mt-20 sm:gap-2 gap-10">
+      <div className="grid sm:grid-cols-3  justify-center text-center sm:mt-28 mt-20 sm:gap-2 gap-20">
 
         {latestNews.map((info, idx) => (
 

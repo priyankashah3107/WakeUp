@@ -11,7 +11,7 @@ function Footer() {
   // console.log(foo2)
   return (
     <>
-    <div className='w-screen sm:h-[400px] h-[600px] relative flex sm:flex-row flex-col sm:mt-0 mt-10 '>
+    <div className='w-screen sm:h-[400px] h-[550px] relative flex sm:flex-row flex-col sm:mt-0 mt-10 '>
 
       <img src={footer} alt="img" className='w-full sm:h-[400px] h-[600px]  ' />
 
@@ -44,8 +44,8 @@ function Footer() {
             <p className="w-[119px] h-[15px] text-center text-white text-[16px] font-normal font-['Monda'] leading-none sm:mt-1">+3333-444-99-11</p>
             </div>    
 
-             <div className='relative sm:left-52 left-80 sm:top-20 top-24 cursor-pointer'> 
-              <img src={logo2} alt="img" />
+             <div className='relative sm:left-52 left-40 sm:top-20 top-24 cursor-pointer'> 
+              <img src={logo2} alt="img" className=''/>
             </div>    
             </div>
 

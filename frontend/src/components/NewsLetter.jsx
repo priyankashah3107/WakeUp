@@ -16,17 +16,17 @@ function NewsLetter() {
  
 </div> */}
 
-<div class=" flex sm:h-[500px] h-[380px] sm:mt-44 w-screen flex-col text-white sm:h-930px bg-[#232323] justify-center items-center">
+<div class=" flex sm:h-[500px] h-[380px]  sm:mt-44 md:w-screen w-[500px]  flex-col text-white sm:h-930px bg-[#232323] justify-center items-center">
 
   <div>
-        <div className=" relative -z-3 sm:mt-20  sm:h-96 h-72 sm:w-[900px] w-[500px] border-2 border-[#A5886D] sm:top-20 top-28 sm:-left-10 -left-10">
+        <div className=" relative -z-3 sm:mt-20   sm:h-96  sm:w-[900px] w-[550px] border-2 border-[#A5886D] sm:top-20 top-28 sm:-left-10 -left-10">
                 
             <div className='flex flex-col sm:text-center text-center sm:mt-12 mt-8'>
                 
                      <div className='flex flex-col justify-center items-center'>
                       
-                      <h3 className=" text-[#A5886D] text-[31px] font-bold font-['Monda'] leading-10">Subscribe Our Newsletter</h3>
-                       <img src={underLine} alt="underline" className="w-60 text-center sm:mt-2 mt-2" />
+                      <h3 className=" text-[#A5886D] md:text-[31px] font-bold font-['Monda'] md:leading-10 leading-5">Subscribe Our Newsletter</h3>
+                       <img src={underLine} alt="underline" className="md:w-60 w-[150px] text-center sm:mt-2 mt-1" />
 
                        <p className="sm:w-[585px] w-[400px] h-14 sm:text-center  text-white sm:text-xl text-base font-normal font-['Monda'] leading-normal sm:mt-5 mt-5 sm:block hidden">Stay in the loop with the latest news, events, and exclusive offers from our <br  className='sm:hidden hidden '/>
                         exquisite luxury restaurant.</p>
@@ -52,9 +52,10 @@ function NewsLetter() {
                              <p className="text-white text-[15px] font-normal font-['Monda'] leading-none">I agree to the <span className='text-[#A5886D]'>Privacy Policy.</span></p>
                            </div>
                              {/* button */}
-                           <div className="w-[139px] h-11 px-8 py-2.5 bg-gradient-to-b from-[#A5886D] to-stone-400 rounded-tl-[150px] rounded-br-[150px] justify-center items-center inline-flex mt-7">
-                           <button className="text-center text-white text-base font-bold font-['Monda'] leading-normal">Subscribe</button>
-                            </div>
+                              
+                              <div className="outerDiv w-[130px] md:mt-10 mt-10 mb-5">
+                                <div className="butt">Subscribe</div>
+                              </div>
                      </div>
             </div>
 
