@@ -6,12 +6,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FirebaseContextProvider } from './context/FirebaseAuth.jsx';
 import SignupPage from './pages/SignupPage.jsx';
+import LoginPage from './pages/LoginPage.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    
    <FirebaseContextProvider>
      {/* <App /> */}
-     <SignupPage />
+     {/* <SignupPage /> */}
+     <LoginPage />
  </FirebaseContextProvider>
 
     
