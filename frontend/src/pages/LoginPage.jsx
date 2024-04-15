@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useFirebase } from '../context/FirebaseAuth'
+import { FaGoogle } from 'react-icons/fa6'
 const LoginPage = () => {
   const firebase = useFirebase()
 
@@ -40,6 +41,7 @@ const LoginPage = () => {
            />
            </label>
            <button className="btn btn-primary max-w-auto mt-10">SignIn </button>
+           <button className="btn btn-accent ml-4" onClick={firebase.LoginWithGoogle}><FaGoogle /> <span>Sigin With Google</span> </button>
            </div>
 
       </form>
