@@ -11,9 +11,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    
    <FirebaseContextProvider>
-     {/* <App /> */}
+     <App />
      {/* <SignupPage /> */}
-     <LoginPage />
+     {/* <LoginPage /> */}
  </FirebaseContextProvider>
 
     

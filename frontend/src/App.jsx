@@ -8,6 +8,8 @@ import "aos/dist/aos.js";
 import Carousel from './carousel/Carousel.jsx';
 import  { slides, contentInfo}  from './data/carouselData.js';
 import {stats, menus, latestNews} from './contants/index.js'
+import LoginPage from './pages/LoginPage.jsx';
+import SignupPage from './pages/SignupPage.jsx';
 function App() {
   
   // useEffect(() => {
@@ -18,18 +20,24 @@ function App() {
   //     delay: 100,
   //   });
   // });
+ 
+  const user = false;
+  // const user = true;
 
   return (
+
    <>
    <div className="bg-[#232323] w-full  overflow-hidden">
-    
-   <div className='bg-[#232323] w-full  overflow-hidden'>  
+
+
+    {user ? (
+      <> 
+      <div className='bg-[#232323] w-full  overflow-hidden'>  
       <div><Navbar /></div>
-      {/* <img src={Main} alt="IMG"  className='w-full h-full img '/>  */}
       <Carousel data={slides} />
      </div>
       
-     {/* QualityCoffee  */}
+     
      <div className='text-white'>
      <QualityCoffee  info={contentInfo}/></div>
 
@@ -42,13 +50,11 @@ function App() {
    <LatestNews info={latestNews} />
    <StatesTwo />
    <Footer />
-
-    {/* <States  items={stats}/>
-   
-    <History />
-    <OurMenu data={menus}/>
-    <NewsLetter />
-    <CoffeeProduct /> */}
+      </>
+    ) : (<SignupPage />)}
+    
+    
+    
     
        
    </div>
