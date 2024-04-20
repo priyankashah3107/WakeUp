@@ -14,7 +14,7 @@ const LoginPage = () => {
      ev.preventDefault()
      console.log("Signin to the userr..............")
     const result = await firebase.SignInWithEmail(email, password)
-    console.log("successfully SignIn", result)
+    // console.log("successfully SignIn", result)
     alert("Successfully SignIn")
  }
 

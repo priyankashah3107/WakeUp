@@ -10,6 +10,11 @@ import  { slides, contentInfo}  from './data/carouselData.js';
 import {stats, menus, latestNews} from './contants/index.js'
 import LoginPage from './pages/LoginPage.jsx';
 import SignupPage from './pages/SignupPage.jsx';
+import { app } from '../firebase.js';
+import { getAuth, onAuthStateChanged } from 'firebase/auth'
+const auth  = getAuth(app)
+
+
 function App() {
   
   // useEffect(() => {
@@ -23,6 +28,20 @@ function App() {
  
   const user = false;
   // const user = true;
+
+  // store user information after authentication 
+
+  useEffect(() => {
+    const authCh = onAuthStateChanged(auth, (user) => {
+      console.log(user)
+    }, (err) => {
+      console.error(err)
+    })
+
+    return () => {
+      authCh()
+    }
+  },[])
 
   return (
 
@@ -51,7 +70,7 @@ function App() {
    <StatesTwo />
    <Footer />
       </>
-    ) : (<SignupPage />)}
+    ) : (<LoginPage/>)}
     
     
     
