@@ -15,41 +15,85 @@ import { getAuth, onAuthStateChanged } from 'firebase/auth'
 const auth  = getAuth(app)
 
 
-function App() {
+// function App() {
   
-  // useEffect(() => {
-  //   AOS.init({
-  //     offset: 100,
-  //     duration: 700,
-  //     easing: 'ease-in',
-  //     delay: 100,
-  //   });
-  // });
+//   // useEffect(() => {
+//   //   AOS.init({
+//   //     offset: 100,
+//   //     duration: 700,
+//   //     easing: 'ease-in',
+//   //     delay: 100,
+//   //   });
+//   // });
  
-  const user = false;
-  // const user = true;
+//   const user = false;
+//   // const user = true;
 
-  // store user information after authentication 
+//   // store user information after authentication 
 
-  useEffect(() => {
-    const authCh = onAuthStateChanged(auth, (user) => {
-      console.log(user)
-    }, (err) => {
-      console.error(err)
-    })
+//   useEffect(() => {
+//     const authCh = onAuthStateChanged(auth, (user) => {
+//       console.log(user)
+//     }, (err) => {
+//       console.error(err)
+//     })
 
-    return () => {
-      authCh()
-    }
-  },[])
+//     return () => {
+//       authCh()
+//     }
+//   },[])
 
+//   return (
+
+//    <>
+//    <div className="bg-[#232323] w-full  overflow-hidden">
+
+
+//     {user ? (
+//       <> 
+//       <div className='bg-[#232323] w-full  overflow-hidden'>  
+//       <div><Navbar /></div>
+//       <Carousel data={slides} />
+//      </div>
+      
+     
+//      <div className='text-white'>
+//      <QualityCoffee  info={contentInfo}/></div>
+
+//      <States  items={stats}/>
+   
+//    <History />
+//    <OurMenu data={menus}/>
+//    <NewsLetter />
+//    <CoffeeProduct />
+//    <LatestNews info={latestNews} />
+//    <StatesTwo />
+//    <Footer />
+//       </>
+//     ) : (<LoginPage/>)}
+    
+    
+    
+    
+       
+//    </div>
+
+
+   
+//    </>
+//   )
+// }
+
+
+function App() {
+   
   return (
 
    <>
    <div className="bg-[#232323] w-full  overflow-hidden">
 
 
-    {user ? (
+    
       <> 
       <div className='bg-[#232323] w-full  overflow-hidden'>  
       <div><Navbar /></div>
@@ -70,16 +114,9 @@ function App() {
    <StatesTwo />
    <Footer />
       </>
-    ) : (<LoginPage/>)}
-    
-    
-    
     
        
    </div>
-
-
-   
    </>
   )
 }
